@@ -1,0 +1,31 @@
+{
+  "name": "fileai-mcp-server",
+  "version": "1.0.0",
+  "description": "File.ai MCP Server - Document processing with AI",
+  "main": "fileai-mcp-server.js",
+  "type": "module",
+  "bin": {
+    "fileai-mcp-server": "./fileai-mcp-server.js"
+  },
+  "scripts": {
+    "start": "node fileai-mcp-server.js",
+    "install-global": "npm install -g .",
+    "test": "echo \"Test by running: node fileai-mcp-server.js\" && exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "fileai",
+    "document-processing",
+    "ai",
+    "ocr"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
